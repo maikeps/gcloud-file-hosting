@@ -1,5 +1,5 @@
 # Pull base image
-FROM python:3.6-slim
+FROM gcr.io/google-appengine/python
 
 # Set work directory
 WORKDIR /code
